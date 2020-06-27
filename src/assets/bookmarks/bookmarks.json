@@ -1,146 +1,144 @@
-[
+  [{
+    "name": "i am a bookmark",
+    "link": "https://google.de",
+    "hasThumbnail": true,
+    "thumbnail": "1.jpg"
+  },
   {
     "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "link": "https://resourcecards.com/",
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  }
-]
+  }]

@@ -1,0 +1,28 @@
+.container {
+  align-items: center;
+  border: 1px solid lime;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.container:hover {
+  transform: scale(1.3);
+  transition-duration: 0.7s;
+}
+
+.thumbnail {
+  width: 100%;
+  background-color: var(--color-background-main);
+  background-size: cover;
+  flex: 1;
+}
+
+.name {
+  background-color: #00a3e0;
+  height: 25px;
+  text-align: center;
+  width: 100%;
+}
