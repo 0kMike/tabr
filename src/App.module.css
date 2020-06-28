@@ -24,6 +24,7 @@
 
   /*used color variables*/
   --color-background-main: var(--color-greyDark2);
+  --color-background-variant: var(--color-greyDark3);
   --color-text-main: var(--color-white-variant);
   --color-accent-main: var(--color-blue-variant);
 

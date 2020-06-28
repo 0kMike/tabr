@@ -1,6 +1,5 @@
 .container {
   align-items: center;
-  border: 1px solid lime;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -10,7 +9,7 @@
 
 .container:hover {
   transform: scale(1.1);
-  transition-duration: 0.7s;
+  transition-duration: 0.2s;
 }
 
 .thumbnail {

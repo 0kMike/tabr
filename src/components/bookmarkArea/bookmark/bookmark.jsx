@@ -4,16 +4,17 @@ import pic from '../../../assets/thumbnails/1.jpg'
 
 function Bookmark(props) {
   const {name, link, hasThumbnail, thumbnail} = props.bookmark;
+  const {scale} = props;
 
-  const [scaleStyle, setScaleStyle] = useState(1);
+
 
   const style = {
     backgroundImage: pic
   }
 
   const bookmarkSize = {
-    width: 200 * scaleStyle,
-    height: 125 * scaleStyle
+    width: 200 * scale,
+    height: 125 * scale
   }
 
   const openLink = () => {

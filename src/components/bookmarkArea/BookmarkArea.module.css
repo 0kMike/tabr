@@ -1,8 +1,8 @@
 .main {
   display: flex;
   flex: 5;
-  flex-wrap: wrap;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -17,4 +17,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   overflow: auto;
+  align-content: flex-start;
 }
+
