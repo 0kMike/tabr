@@ -1,27 +1,30 @@
 import React, {useState} from 'react';
 import styles from './bookmark.module.css';
+import pic from '../../../assets/thumbnails/1.jpg'
 
 function Bookmark(props) {
   const {name, link, hasThumbnail, thumbnail} = props.bookmark;
 
-  const [sclaeStyle, setScaleStyle] = useState(1);
-  const [thumbnailStyle, setThumbnailStyle] = useState({
-    backgroundImage: `url(../../../assets/thumbnails/"${thumbnail})`
-  });
+  const [scaleStyle, setScaleStyle] = useState(1);
+
+  const style = {
+    backgroundImage: pic
+  }
 
   const bookmarkSize = {
-    width: 200 * sclaeStyle,
-    height: 150 * sclaeStyle
+    width: 200 * scaleStyle,
+    height: 125 * scaleStyle
   }
 
   const openLink = () => {
-    window.open(link);
+    window.open(link, "_self");
   }
 
   return (
     <div className={styles.container} style={bookmarkSize}>
-      <section className={styles.thumbnail} style={thumbnailStyle} onClick={openLink}/>
-      <div className={styles.name}>{name}</div>
+      <section style={style} className={styles.thumbnail} onClick={openLink}>
+        <div className={styles.name}>{name}</div>
+      </section>
     </div>
   )
 }

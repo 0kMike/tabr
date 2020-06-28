@@ -2,5 +2,19 @@
   display: flex;
   flex: 5;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+}
+
+.header {
+  min-height: 75px;
+  width: 100%;
+}
+
+.bookmarkContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
 }
