@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './RightSideArea.module.css'
+import settingsIcon from '../../../assets/icons/settings_white.svg'
 
 function RightSideArea(props) {
   return (
     <aside className={styles.rightSideArea}>
-      <img src="./assets/icons/settings_white.svg" alt="setting icon"/>
+      <div className={styles.seetingsButton}/>
     </aside>
   )
 }

@@ -16,6 +16,7 @@ function BookmarkArea(props) {
       <header className={styles.header}/>
       <section className={styles.bookmarkContainer}>
         {generateBookmarks}
+        <div />
       </section>
     </main>
   )

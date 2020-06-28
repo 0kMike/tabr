@@ -14,7 +14,7 @@
 }
 
 .thumbnail {
-  /*background-color: var(--color-background-main);*/
+  background-color: var(--color-white-variant);
   background-size: cover;
   display: flex;
   flex: 1;

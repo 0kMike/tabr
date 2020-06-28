@@ -4,3 +4,11 @@
   flex-direction: column;
   min-width: 150px;
 }
+
+.seetingsButton {
+  background-image: url("../../../assets/icons/settings_white.svg");
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  cursor: pointer;
+}
