@@ -1,0 +1,31 @@
+.container {
+  align-items: center;
+  border: 1px solid lime;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.container:hover {
+  transform: scale(1.1);
+  transition-duration: 0.7s;
+}
+
+.thumbnail {
+  /*background-color: var(--color-background-main);*/
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.name {
+  background-color: rgba(50,50,50, 0.7);
+  height: 25px;
+  text-align: center;
+  width: 100%;
+}

@@ -1,146 +1,109 @@
-[
+  [{
+    "name": "Online Banking",
+    "link": "https://www.sparkasse-karlsruhe.de/de/home.html",
+    "hasThumbnail": true,
+    "thumbnail": "1.jpg"
+  },
+  {
+    "name": "Design RSC",
+    "link": "https://resourcecards.com/",
+    "hasThumbnail": true,
+    "thumbnail": "1.jpg"
+  },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
+    "thumbnail": ""
+  },
+  {
+    "name": "Etecture Outlook",
+    "link": "https://outlook.office365.com/mail/inbox",
+    "hasThumbnail": true,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   },
   {
     "name": "i am a bookmark",
     "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
-    "thumbnail": ""
-  },
-  {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasthumbnail": false,
+    "hasThumbnail": false,
     "thumbnail": ""
   }
-]
+  ]
