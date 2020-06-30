@@ -6,11 +6,13 @@ function Bookmark(props) {
   const {name, link, hasThumbnail, thumbnail} = props.bookmark;
   const {scale} = props;
 
-
-
   const style = {
-    backgroundImage: pic
+    backgroundImage: `url("../../../assets/thumbnails/${thumbnail}")`
   }
+
+  // const style = {
+  //   backgroundImage: pic
+  // }
 
   const bookmarkSize = {
     width: 200 * scale,

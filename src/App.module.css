@@ -26,6 +26,7 @@
   --color-background-main: var(--color-greyDark2);
   --color-background-variant: var(--color-greyDark3);
   --color-text-main: var(--color-white-variant);
+  --color-text-variant: var(--color-greyDark);
   --color-accent-main: var(--color-blue-variant);
 
   /*used fonts*/

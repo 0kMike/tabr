@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import styles from './RightSideArea.module.css'
+import Settings from "./Settings/Settings";
 
 function RightSideArea(props) {
 
@@ -12,7 +13,7 @@ function RightSideArea(props) {
   return (
     <aside className={styles.rightSideArea}>
       <div className={styles.seetingsButton} onClick={toggleSettings}/>
-      {showSettings && <h1>settings wip</h1>}
+      {showSettings && <Settings/>}
     </aside>
   )
 }
