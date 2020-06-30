@@ -1,0 +1,22 @@
+.settings {
+  background-color: var(--color-background-variant);
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  margin: 10px;
+  width: 250px;
+}
+
+.cancel {
+  background-color: var(--color-white-variant);
+  color: var(--color-text-variant);
+  display: inline-block;
+  margin: 10px;
+}
+
+.safe {
+  background-color: var(--color-white-variant);
+  color: var(--color-text-variant);
+  display: inline-block;
+  margin: 10px;
+}

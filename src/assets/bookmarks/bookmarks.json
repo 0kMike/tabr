@@ -59,9 +59,9 @@
     "thumbnail": ""
   },
   {
-    "name": "i am a bookmark",
-    "link": "https:\/\/google.de",
-    "hasThumbnail": false,
+    "name": "Github",
+    "link": "https://github.com/0kMike",
+    "hasThumbnail": true,
     "thumbnail": ""
   },
   {
