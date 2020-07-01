@@ -3,7 +3,7 @@ import styles from './RightSideArea.module.css'
 import Settings from "./Settings/Settings";
 
 export interface IRightSideAreaProps {
-  changeScale(scale: number): void
+  changeScale(scale: number): void;
 }
 
 function RightSideArea(props: IRightSideAreaProps) {

@@ -4,12 +4,14 @@ import Bookmark from "./bookmark/bookmark";
 import styles from './BookmarkArea.module.css'
 import AddBookmark from "./bookmark/AddBookmark/AddBookmark";
 
-function BookmarkArea(props) {
+export interface IBookmarkAreaProps {
+  scale: number;
+}
 
-  const {scale} = props
+function BookmarkArea(props: IBookmarkAreaProps) {
 
   const generateBookmarks = bookmarksArray.map((item, index) => {
-    return <Bookmark key={index} bookmark={item} scale={scale}/>
+    return <Bookmark key={index} bookmark={item} scale={props.scale}/>
   })
 
   return (
@@ -17,7 +19,7 @@ function BookmarkArea(props) {
       <header className={styles.header}/>
       <section className={styles.bookmarkContainer}>
         {generateBookmarks}
-        <AddBookmark scale={scale}/>
+        <AddBookmark scale={props.scale}/>
       </section>
     </main>
   )

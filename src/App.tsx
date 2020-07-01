@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import BookmarkArea from "./components/bookmarkArea/BookmarkArea";
 import RightSideArea from "./components/SideArea/RightSideArea/RightSideArea";
 import LefttSideArea from "./components/SideArea/LeftSideArea/LefttSideArea";
+import styles from './App.module.css';
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className={styles.App}>
       <LefttSideArea/>
       <BookmarkArea scale={scale}/>
       <RightSideArea changeScale={changeScale}/>
