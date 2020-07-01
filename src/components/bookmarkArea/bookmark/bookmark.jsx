@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styles from './bookmark.module.css';
 
 function Bookmark(props) {
-  const {name, link, hasThumbnail, thumbnail} = props.bookmark;
+  const {name, link, thumbnail} = props.bookmark;
   const {scale} = props;
 
   const imageUrl = thumbnail ?
