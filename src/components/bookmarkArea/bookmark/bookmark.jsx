@@ -1,18 +1,12 @@
 import React, {useState} from 'react';
 import styles from './bookmark.module.css';
-import pic from '../../../assets/thumbnails/1.jpg'
 
 function Bookmark(props) {
   const {name, link, hasThumbnail, thumbnail} = props.bookmark;
   const {scale} = props;
 
-  const style = {
-    backgroundImage: `url("../../../assets/thumbnails/${thumbnail}")`
-  }
-
-  // const style = {
-  //   backgroundImage: pic
-  // }
+  const imageUrl = thumbnail ?
+    require(`../../../assets/thumbnails/${thumbnail}`) : "";
 
   const bookmarkSize = {
     width: 200 * scale,
@@ -25,7 +19,7 @@ function Bookmark(props) {
 
   return (
     <div className={styles.container} style={bookmarkSize}>
-      <section style={style} className={styles.thumbnail} onClick={openLink}>
+      <section style={{ backgroundImage: `url(${imageUrl})` }} className={styles.thumbnail} onClick={openLink}>
         <div className={styles.name}>{name}</div>
       </section>
     </div>
