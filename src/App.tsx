@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import styles from './App.module.css';
+import 'App.css';
 import BookmarkArea from "./components/bookmarkArea/BookmarkArea";
 import RightSideArea from "./components/SideArea/RightSideArea/RightSideArea";
 import LefttSideArea from "./components/SideArea/LeftSideArea/LefttSideArea";
@@ -14,10 +14,10 @@ function App() {
 
 
   return (
-    <div className={styles.App}>
+    <div className={App}>
       <LefttSideArea/>
       <BookmarkArea scale={scale}/>
-      <RightSideArea changeScale/>
+      <RightSideArea changeScale={changeScale}/>
     </div>
   );
 }

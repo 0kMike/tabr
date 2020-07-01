@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styles from './RightSideArea.module.css'
 import Settings from "./Settings/Settings";
 
+
 function RightSideArea(props) {
 
   const [showSettings, setShowSettings] = useState(false);
@@ -13,7 +14,7 @@ function RightSideArea(props) {
   return (
     <aside className={styles.rightSideArea}>
       <div className={styles.seetingsButton} onClick={toggleSettings}/>
-      {showSettings && <Settings/>}
+      {showSettings && <Settings changeScale={changeScale}/>}
     </aside>
   )
 }
