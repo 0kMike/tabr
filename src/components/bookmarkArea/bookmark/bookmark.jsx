@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styles from './bookmark.module.css';
 
 function Bookmark(props) {

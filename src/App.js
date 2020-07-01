@@ -8,11 +8,16 @@ function App() {
 
   const [scale, setScale] = useState(1);
 
+  const changeScale = (scale) => {
+    setScale(scale);
+  }
+
+
   return (
     <div className={styles.App}>
       <LefttSideArea/>
       <BookmarkArea scale={scale}/>
-      <RightSideArea/>
+      <RightSideArea changeScale/>
     </div>
   );
 }
