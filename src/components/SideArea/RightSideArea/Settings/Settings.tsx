@@ -14,7 +14,9 @@ function Settings(props: ISettingsProps) {
   return (
     <section className={styles.settings}>
       <div className={styles.option}>
-        Scale
+        <form>
+
+        </form>
       </div>
       {/*insert options here*/}
       <div>
