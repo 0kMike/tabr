@@ -3,7 +3,7 @@
   background-image: url("../../../../assets/icons/add-white-.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--color-background-variant);
+  background-color: var(--color-background-dark-variant);
   cursor: pointer;
 }
 

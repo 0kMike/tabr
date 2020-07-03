@@ -10,6 +10,7 @@
   --color-greyDark: #1c1c1c;
   --color-greyDark2: #323232;
   --color-greyDark3: #3c3c3c;
+  --color-greyDark4: #4c4c4c;
   --color-indigo: #3f51b5;
   --color-orange: #ff6900;
   --color-orangeBright: #ff5733;
@@ -23,8 +24,11 @@
   --color-yellow: #f6be00;
 
   /*used color variables*/
-  --color-background-main: var(--color-greyDark2);
-  --color-background-variant: var(--color-greyDark3);
+  --color-background-dark: var(--color-greyDark2);
+  --color-background-dark-variant: var(--color-greyDark3);
+  --color-background-dark-variant-2: var(--color-greyDark4);
+  --color-background-light: var(--color-white-variant);
+
   --color-text-main: var(--color-white-variant);
   --color-text-variant: var(--color-greyDark);
   --color-accent-main: var(--color-blue-variant);
@@ -34,7 +38,7 @@
 }
 
 .App {
-  background-color: var(--color-background-main);
+  background-color: var(--color-background-dark);
   display: flex;
   flex-direction: row;
   color: var(--color-text-main);

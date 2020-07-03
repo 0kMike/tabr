@@ -1,11 +1,11 @@
 import * as React from 'react';
 import styles from './LeftSideArea.module.css';
 
-function LefttSideArea() {
+function LeftSideArea() {
   return (
     <aside className={styles.rightSideArea}>
     </aside>
   )
 }
 
-export default LefttSideArea;
+export default LeftSideArea;
