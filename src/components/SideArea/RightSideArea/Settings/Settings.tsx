@@ -15,10 +15,10 @@ export interface ISettingsProps {
 
 function Settings(props: ISettingsProps) {
 
-  const scaleSlider: any = useRef();
-  const scaleInput: any = useRef();
-  const bgButtonDark: any = useRef();
-  const bgButtonLight: any = useRef();
+  const scaleSlider: any = useRef<HTMLInputElement>();
+  const scaleInput: any = useRef<HTMLInputElement>();
+  const bgButtonDark: any = useRef<HTMLDivElement>();
+  const bgButtonLight: any = useRef<HTMLDivElement>();
 
   useEffect(() => {
     scaleInput.current.value = props.scale;
