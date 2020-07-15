@@ -15,18 +15,31 @@
 
 .header {
   font-size: 1.5em;
+  margin: 10px;
 }
 
 .buttonFooter {
+  align-items: flex-end;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-end;
   margin: 0;
 }
 
 .cancelButton {
-
+  background-color: var(--color-background-dark-variant-2);
+  color: var(--color-text-main);
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 5px;
 }
 
 .confirmButton {
-
+  background-color: var(--color-background-dark-variant-2);
+  color: var(--color-text-main);
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 5px;
 }
