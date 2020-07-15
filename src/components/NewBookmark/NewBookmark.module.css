@@ -14,14 +14,13 @@
 }
 
 .header {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .buttonFooter {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 0, ;
 }
 
 .cancelButton {

@@ -13,7 +13,7 @@ export interface IBookmarkProps {
 function Bookmark(props: IBookmarkProps) {
 
   const imageUrl = props.bookmark.thumbnail ?
-    require(`../../../assets/thumbnails/${props.bookmark.thumbnail}`) : "";
+    require(`../../../assets/thumbnails/${props.bookmark.thumbnail}`) : require(`../../../assets/thumbnails/placeholder.png`);
 
   const bookmarkSize = {
     width: 200 * props.scale,
@@ -26,7 +26,7 @@ function Bookmark(props: IBookmarkProps) {
 
   return (
     <div className={styles.container} style={bookmarkSize}>
-      <section style={{ backgroundImage: `url(${imageUrl})` }} className={styles.thumbnail} onClick={openLink}>
+      <section style={{backgroundImage: `url(${imageUrl})`}} className={styles.thumbnail} onClick={openLink}>
         <div className={styles.name}>{props.bookmark.name}</div>
       </section>
     </div>
