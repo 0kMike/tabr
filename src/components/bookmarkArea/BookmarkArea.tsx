@@ -1,5 +1,4 @@
 import React from 'react';
-import bookmarksArray from "../../assets/bookmarks/bookmarks.json";
 import Bookmark from "./bookmark/bookmark";
 import styles from './BookmarkArea.module.css'
 import AddBookmark from "./bookmark/AddBookmark/AddBookmark";
@@ -8,11 +7,18 @@ export interface IBookmarkAreaProps {
   scale: number;
   isDarkBackground: boolean;
   toggleShowNewBookmarkDialogue(bool: boolean): void;
+  bookmarksArray: bookmark[];
+}
+
+interface bookmark {
+  name: string;
+  link: string;
+  thumbnail: string;
 }
 
 function BookmarkArea(props: IBookmarkAreaProps) {
 
-  const generateBookmarks = bookmarksArray.map((item, index) => {
+  const generateBookmarks = props.bookmarksArray.map((item, index) => {
     return <Bookmark key={index} bookmark={item} scale={props.scale}/>
   })
 
