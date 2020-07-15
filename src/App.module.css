@@ -1,6 +1,7 @@
 :root {
 
   /*Default colors*/
+  --color-black: #111111;
   --color-blue: #649df1;
   --color-blue-variant: #00a3e0;
   --color-blueDark: #5461c8;
