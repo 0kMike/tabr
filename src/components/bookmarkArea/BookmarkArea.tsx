@@ -6,6 +6,7 @@ import AddBookmark from "./bookmark/AddBookmark/AddBookmark";
 
 export interface IBookmarkAreaProps {
   scale: number;
+  isDarkBackground: boolean;
 }
 
 function BookmarkArea(props: IBookmarkAreaProps) {
@@ -14,10 +15,11 @@ function BookmarkArea(props: IBookmarkAreaProps) {
     return <Bookmark key={index} bookmark={item} scale={props.scale}/>
   })
 
+  const bookmarkSectionStyle = props.isDarkBackground ? styles.bookmarkContainerDark : styles.bookmarkContainerLight;
   return (
     <main className={styles.main}>
       <header className={styles.header}/>
-      <section className={styles.bookmarkContainer}>
+      <section className={bookmarkSectionStyle}>
         {generateBookmarks}
         <AddBookmark scale={props.scale}/>
       </section>

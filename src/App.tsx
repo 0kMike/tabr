@@ -27,7 +27,7 @@ function App() {
   return (
     <div className={styles.App} style={appStyle}>
       <LeftSideArea/>
-      <BookmarkArea scale={scale}/>
+      <BookmarkArea scale={scale} isDarkBackground={isDarkBackground}/>
       <RightSideArea changeScale={changeScale} scale={scale} changeBackground={changeBackground} isDarkBackground={isDarkBackground}/>
     </div>
   );

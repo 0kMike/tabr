@@ -22,6 +22,7 @@
   --color-red: #e4002b;
   --color-white: #eeeeee;
   --color-white-variant: #c1c1c1;
+  --color-white-variant-2: #999999;
   --color-yellow: #f6be00;
 
   /*used color variables*/
@@ -29,6 +30,7 @@
   --color-background-dark-variant: var(--color-greyDark3);
   --color-background-dark-variant-2: var(--color-greyDark4);
   --color-background-light: var(--color-white-variant);
+  --color-background-light-variant: var(--color-white-variant-2);
 
   --color-text-main: var(--color-white-variant);
   --color-text-variant: var(--color-greyDark);
