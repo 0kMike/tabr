@@ -1,12 +1,12 @@
   [{
     "name": "Online Banking",
     "link": "https://www.sparkasse-karlsruhe.de/de/home.html",
-    "thumbnail": "Online_Banking.jpg"
+    "thumbnail": "onlinebanking.jpg"
   },
   {
     "name": "Design RSC",
     "link": "https://resourcecards.com/",
-    "thumbnail": "Design_RSC.jpg"
+    "thumbnail": "designrcs.jpg"
   },
   {
     "name": "i am a bookmark",
@@ -31,7 +31,7 @@
   {
     "name": "Etecture Outlook",
     "link": "https://outlook.office365.com/mail/inbox",
-    "thumbnail": "Etecture_Outlook.jpg"
+    "thumbnail": "etectureoutlook.jpg"
   },
   {
     "name": "i am a bookmark",
@@ -51,7 +51,7 @@
   {
     "name": "Github",
     "link": "https://github.com/0kMike",
-    "thumbnail": "Github.jpg"
+    "thumbnail": "github.jpg"
   },
   {
     "name": "i am a bookmark",
@@ -86,6 +86,6 @@
   {
     "name": "Invision",
     "link": "https://0kmike888148.invisionapp.com/",
-    "thumbnail": "Invision.jpg"
+    "thumbnail": "invision.jpg"
   }
   ]

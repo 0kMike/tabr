@@ -13,7 +13,7 @@
 }
 
 .thumbnail {
-  background-color: var(--color-white-variant);
+  background-color: var(--color-black);
   background-position: center;
   background-size: cover;
   display: flex;
