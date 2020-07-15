@@ -27,5 +27,6 @@
   background-color: rgba(50,50,50, 0.7);
   height: 25px;
   text-align: center;
+  user-select: none;
   width: 100%;
 }
