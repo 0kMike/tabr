@@ -10,6 +10,7 @@
   --color-greenDark: #006400;
   --color-greyDark: #1c1c1c;
   --color-greyDark2: #323232;
+  --color-greyDark2-transparent: rgba(50, 50, 50, 0.5);
   --color-greyDark3: #3c3c3c;
   --color-greyDark4: #4c4c4c;
   --color-indigo: #3f51b5;
@@ -38,6 +39,9 @@
 
   /*used fonts*/
   font-family: Calibri, sans-serif;
+
+  /*default shadow*/
+  --shadow-dark-main: 2px 2px 5px var(--color-black);
 }
 
 .App {

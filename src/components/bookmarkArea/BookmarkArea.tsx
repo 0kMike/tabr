@@ -7,6 +7,7 @@ import AddBookmark from "./bookmark/AddBookmark/AddBookmark";
 export interface IBookmarkAreaProps {
   scale: number;
   isDarkBackground: boolean;
+  toggleShowNewBookmarkDialogue(bool: boolean): void;
 }
 
 function BookmarkArea(props: IBookmarkAreaProps) {
@@ -21,7 +22,7 @@ function BookmarkArea(props: IBookmarkAreaProps) {
       <header className={styles.header}/>
       <section className={bookmarkSectionStyle}>
         {generateBookmarks}
-        <AddBookmark scale={props.scale}/>
+        <AddBookmark scale={props.scale} toggleShowNewBookmarkDialogue={props.toggleShowNewBookmarkDialogue}/>
       </section>
     </main>
   )

@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: 10px;
     z-index: 1;
-    box-shadow: 2px 2px 5px var(--color-black);
+    box-shadow: var(--shadow-dark-main);
 }
 
 .header {
@@ -70,7 +70,7 @@
     justify-content: flex-end;
 }
 
-.safe {
+.closeButton {
     background-color: var(--color-background-dark-variant-2);
     color: var(--color-text-main);
     cursor: pointer;

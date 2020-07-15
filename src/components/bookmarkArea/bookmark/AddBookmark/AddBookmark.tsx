@@ -3,9 +3,14 @@ import styles from "./AddBookmark.module.css";
 
 export interface IAddBookmarkProps {
   scale: number;
+  toggleShowNewBookmarkDialogue(bool: boolean): void;
 }
 
 function AddBookmark(props: IAddBookmarkProps) {
+
+  const addBookmarkClickHandler = () => {
+    props.toggleShowNewBookmarkDialogue(true);
+  }
 
   const bookmarkSize = {
     width: 200 * props.scale,
@@ -13,7 +18,7 @@ function AddBookmark(props: IAddBookmarkProps) {
   }
 
   return (
-    <div className={styles.addBookmark} style={bookmarkSize}>
+    <div className={styles.addBookmark} style={bookmarkSize} onClick={addBookmarkClickHandler}>
     </div>
   )
 }

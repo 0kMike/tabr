@@ -1,0 +1,33 @@
+.newBookmark {
+  align-items: center;
+  background-color: var(--color-background-dark);
+  box-shadow: var(--shadow-dark-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  left: 50%;
+  margin: auto;
+  position: absolute;
+  top: 25%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.header {
+  font-size: 2em;
+}
+
+.buttonFooter {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0, ;
+}
+
+.cancelButton {
+
+}
+
+.confirmButton {
+
+}

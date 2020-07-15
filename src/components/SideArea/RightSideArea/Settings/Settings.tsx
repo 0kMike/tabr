@@ -55,7 +55,7 @@ function Settings(props: ISettingsProps) {
         </section>
       </section>
       <div className={styles.buttonFooter}>
-        <div className={styles.safe} onClick={props.hideSettings}>Close</div>
+        <div className={styles.closeButton} onClick={props.hideSettings}>Close</div>
       </div>
     </main>
   )
