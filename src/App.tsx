@@ -6,13 +6,17 @@ import styles from './App.module.css';
 import NewBookmark from "./components/NewBookmark/NewBookmark";
 import bookmarksArray from "../src/assets/bookmarks/bookmarks.json";
 
+interface bookmark {
+  name: string;
+  link: string;
+  thumbnail: string;
+}
+
 function App() {
 
   const [scale, setScale] = useState<number>(1);
   const [isDarkBackground, setIsDarkBackground] = useState<boolean>(true);
   const [isShowNewBookmarkDialogue, setIsShowNewBookmarkDialogue] = useState<boolean>(false);
-
-  console.log()
 
   const changeScale = (scale: number) => {
     setScale(scale);
@@ -27,7 +31,7 @@ function App() {
   }
 
   const addBookMark = (displayName: string, link: string, imagePath: string) => {
-
+    bookmarksArray.push({name: displayName, link: link, thumbnail: imagePath});
   }
 
   const appStyle = isDarkBackground ? {
@@ -42,7 +46,8 @@ function App() {
       <LeftSideArea/>
       <BookmarkArea scale={scale} isDarkBackground={isDarkBackground} toggleShowNewBookmarkDialogue={toggleShowNewBookmarkDialogue} bookmarksArray={bookmarksArray}/>
       <RightSideArea changeScale={changeScale} scale={scale} changeBackground={changeBackground} isDarkBackground={isDarkBackground}/>
-      {isShowNewBookmarkDialogue && <NewBookmark toggleShowNewBookmarkDialogue={toggleShowNewBookmarkDialogue} addBookMark={addBookMark}/>}
+      {isShowNewBookmarkDialogue &&
+      <NewBookmark toggleShowNewBookmarkDialogue={toggleShowNewBookmarkDialogue} addBookMark={addBookMark}/>}
     </div>
   );
 }

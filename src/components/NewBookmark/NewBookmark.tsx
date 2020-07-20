@@ -24,7 +24,7 @@ function NewBookmark(props: INewBookmarkProps) {
     <div className={styles.newBookmarkBackground}>
       <div className={styles.newBookmark}>
         <h1 className={styles.header}>Add Bookmark</h1>
-        <form className={styles.form} onSubmit={submitHandler}>
+        <form className={styles.form}>
           <label>
             Display Name:
             <br/>
@@ -42,7 +42,7 @@ function NewBookmark(props: INewBookmarkProps) {
           </label>
           <div className={styles.buttonFooter}>
             <button className={styles.formButton} onClick={cancelClickHandler}>Cancel</button>
-            <input className={styles.formButton} type="submit" value="Submit"/>
+            <input className={styles.formButton} type="submit" value="Submit" onClick={submitHandler}/>
           </div>
         </form>
       </div>
