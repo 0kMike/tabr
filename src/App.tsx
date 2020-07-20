@@ -3,7 +3,7 @@ import BookmarkArea from "./components/bookmarkArea/BookmarkArea";
 import RightSideArea from "./components/SideArea/RightSideArea/RightSideArea";
 import LeftSideArea from "./components/SideArea/LeftSideArea/LeftSideArea";
 import styles from './App.module.css';
-import NewBookmark from "./components/NewBookmark/NewBookmark";
+import NewBookmarkWindow from "./components/NewBookmark/NewBookmarkWindow";
 import bookmarksArray from "../src/assets/bookmarks/bookmarks.json";
 
 interface bookmark {
@@ -47,7 +47,7 @@ function App() {
       <BookmarkArea scale={scale} isDarkBackground={isDarkBackground} toggleShowNewBookmarkDialogue={toggleShowNewBookmarkDialogue} bookmarksArray={bookmarksArray}/>
       <RightSideArea changeScale={changeScale} scale={scale} changeBackground={changeBackground} isDarkBackground={isDarkBackground}/>
       {isShowNewBookmarkDialogue &&
-      <NewBookmark toggleShowNewBookmarkDialogue={toggleShowNewBookmarkDialogue} addBookMark={addBookMark}/>}
+      <NewBookmarkWindow toggleShowNewBookmarkDialogue={toggleShowNewBookmarkDialogue} addBookMark={addBookMark}/>}
     </div>
   );
 }

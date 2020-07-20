@@ -1,12 +1,12 @@
 import React, {useRef} from 'react';
-import styles from './NewBookmark.module.css';
+import styles from './AddBookmarkWindow.module.css';
 
 export interface INewBookmarkProps {
   toggleShowNewBookmarkDialogue(boolean: boolean): void;
   addBookMark(displayName: string, link: string, imagePath: string): void;
 }
 
-function NewBookmark(props: INewBookmarkProps) {
+function NewBookmarkWindow(props: INewBookmarkProps) {
 
   const displayNameField = useRef<any>();
   const linkField = useRef<any>();
@@ -16,8 +16,8 @@ function NewBookmark(props: INewBookmarkProps) {
     props.toggleShowNewBookmarkDialogue(false);
   }
 
-  const submitHandler = () => {
-
+  const submitHandler = (event: any) => {
+    event.preventDefault()
   }
 
   return (
@@ -51,4 +51,4 @@ function NewBookmark(props: INewBookmarkProps) {
   )
 }
 
-export default NewBookmark;
+export default NewBookmarkWindow;

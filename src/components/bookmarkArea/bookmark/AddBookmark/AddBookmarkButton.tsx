@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from "./AddBookmark.module.css";
+import styles from "./AddBookmarkButton.module.css";
 
 export interface IAddBookmarkProps {
   scale: number;
   toggleShowNewBookmarkDialogue(bool: boolean): void;
 }
 
-function AddBookmark(props: IAddBookmarkProps) {
+function AddBookmarkButton(props: IAddBookmarkProps) {
 
   const addBookmarkClickHandler = () => {
     props.toggleShowNewBookmarkDialogue(true);
@@ -23,4 +23,4 @@ function AddBookmark(props: IAddBookmarkProps) {
   )
 }
 
-export default AddBookmark;
+export default AddBookmarkButton;

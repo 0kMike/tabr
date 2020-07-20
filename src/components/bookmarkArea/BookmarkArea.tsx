@@ -1,7 +1,7 @@
 import React from 'react';
 import Bookmark from "./bookmark/bookmark";
 import styles from './BookmarkArea.module.css'
-import AddBookmark from "./bookmark/AddBookmark/AddBookmark";
+import AddBookmarkButton from "./bookmark/AddBookmark/AddBookmarkButton";
 
 export interface IBookmarkAreaProps {
   scale: number;
@@ -28,7 +28,7 @@ function BookmarkArea(props: IBookmarkAreaProps) {
       <header className={styles.header}/>
       <section className={bookmarkSectionStyle}>
         {generateBookmarks}
-        <AddBookmark scale={props.scale} toggleShowNewBookmarkDialogue={props.toggleShowNewBookmarkDialogue}/>
+        <AddBookmarkButton scale={props.scale} toggleShowNewBookmarkDialogue={props.toggleShowNewBookmarkDialogue}/>
       </section>
     </main>
   )
