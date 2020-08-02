@@ -1,7 +1,7 @@
 import React from 'react';
-import Bookmark from "./bookmark/bookmark";
+import Bookmark from './bookmark/bookmark';
 import styles from './BookmarkArea.module.css'
-import AddBookmarkButton from "./bookmark/AddBookmark/AddBookmarkButton";
+import AddBookmarkButton from './bookmark/AddBookmark/AddBookmarkButton';
 
 export interface IBookmarkAreaProps {
   scale: number;

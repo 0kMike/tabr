@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./AddBookmarkButton.module.css";
+import styles from './AddBookmarkButton.module.css';
 
 export interface IAddBookmarkProps {
   scale: number;

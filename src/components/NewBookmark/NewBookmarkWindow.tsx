@@ -18,6 +18,7 @@ function NewBookmarkWindow(props: INewBookmarkProps) {
 
   const submitHandler = (event: any) => {
     event.preventDefault()
+    console.log("bookmark added")
   }
 
   return (
